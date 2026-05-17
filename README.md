@@ -8,7 +8,19 @@ Pipeline: [placeholder]<br>
 License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/LICENSE.md)
 ## Problem definition 
 ## Domain exposition 
+### Terminology 
+### Domain
+### Further Reading
 ## Data creation
+### Provenance
+### Code files
+### Rationale
+### Bias identification 
+### Bias mitigation 
 ## Metadata
+### Implicit Schema
+### Database contents 
+### Data dictionary 
+### Quantification of uncertainty
 ## Link to press release 
 ## Link to data 
