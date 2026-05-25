@@ -11,6 +11,9 @@ License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/
 ### Terminology 
 ### Domain
 ### Further Reading
+| Title | Brief description | link | 
+----------------------------------
+| Villarosa Pollution is Killing Black Americans. This community fought back. | [placeholder] | [link](https://myuva-my.sharepoint.com/:b:/g/personal/zvd6vz_virginia_edu/IQAfai7jSp6YTo3OXZHPgXsxAYzlM6tSfUUFkkNB6sdDkWk?e=iuC9FC)
 ## Data creation
 ### Provenance
 ### Code files
