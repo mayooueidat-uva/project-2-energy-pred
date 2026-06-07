@@ -27,11 +27,67 @@ ZIP codes for hospitals will not always be the same as ZIP codes for affected pa
 ## Metadata
 ### Implicit Schema
 ```
-unplanned_data
-readm_data
-plants_data
-generators_data
-demand_data
+Collection: unplanned_data
+
+{
+    _id: objectid,
+    City: string, 
+    Facility ID: string,
+    Facility Name: string,
+    Start Date: date,
+    Measure ID: string,
+    ZIP: numeric
+}
+
+Collection: readm_data
+
+{
+    _id: objectid,
+    Facility ID: string,
+    Facility Name: string,
+    Start Date: date,
+    Excess Readmission Ratio: double,
+    Measure ID: string
+}
+
+Collection: plants_data
+{
+    _id: objectid,
+    Plant Name: string,
+    County: string,
+    State: string,
+    ZIP: double
+}
+
+CollectioN: generators_data
+
+{
+    _id: objectid,
+    Plant Name: string,
+    County: string,
+    State: string,
+    Technology: string
+}
+
+Collection: demand_data
+
+{
+    _id: objectid, 
+    Plant Name: string, 
+    Elec_MMBtu January: double, 
+    Elec_MMBtu February: double,
+    Elec_MMBtu March: double,
+    Elec_MMBtu April: double, 
+    Elec_MMBtu May: double, 
+    Elec_MMBtu June: double, 
+    Elec_MMBtu July: double, 
+    Elec_MMBtu August: double, 
+    Elec_MMBtu September: double, 
+    Elec_MMBtu October: double, 
+    Elec_MMBtu November: double, 
+    Elec_MMBtu December: double, 
+    YEAR: double
+}
 ```
 ### Database contents 
 | Name | brief description | 
