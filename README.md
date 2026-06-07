@@ -30,14 +30,18 @@ License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/
 | City | City/town the facility is present in (energy facility or hospital facility; this is present in both energy data files and hospital data files). | String | DOTHAN | 
 | Facility Name | A hospital facility’s name. | String | SOUTHEAST HEALTH MEDICAL CENTER | 
 | ZIP | The ZIP code of the facility (energy facility or hospital facility; this is present in both energy data files and hospital data files). NOTE: this is categorical data, but it is stored in numerical data format for ease of use. | float64 | 36301 | 
-| Measure ID | Identifies what types of patients are represented in the readmissions ratios columns of a particular row in the data sheet. 
-- READM-30-AMI-HRRP: Heart attack patients 
-- READM-30-COPD-HRRP: Pulmonary disease patients 
-- READM-30-CABG-HRRP: Coronary artery bypass graft patients 
-- READM-30-HF-HRRP: Heart failure patients 
-- READM-30-HIP-KNEE-HRRP: Hip/knee replacement patients 
-- READM-30-PN-HRRP: Pneumonia patients
-| String | See "Brief description" column. | 
+| Measure ID | Identifies what types of patients are represented in the readmissions ratios columns of a particular row in the data sheet. READM-30-AMI-HRRP: Heart attack patients; READM-30-COPD-HRRP: Pulmonary disease patients; READM-30-CABG-HRRP: Coronary artery bypass graft patients; READM-30-HF-HRRP: Heart failure patients; READM-30-HIP-KNEE-HRRP: Hip/knee replacement patients; READM-30-PN-HRRP: Pneumonia patients | String | See "Brief description" column. | 
+| Start Date | Represents the start date for collecting data for our calculations in a given row. Our data is refreshed annually, so there is no time window between start and end dates smaller than a year. | Timestamp | 2016-07-01 | 
+| End Date | Represents the end date for collecting data for our calculations in a given row. Our data is refreshed annually, so there is no time window between start and end dates smaller than a year. | Timestamp | 2019-06-30 | 
+| Excess Readmission Ratio | Description: Calculated by dividing a hospital’s predicted readmissions ratio (based on the hospital’s own data) by its expected readmissions ratio (which is averaged from data from other hospitals with similar patients) | float64 | Example: 0.9875 | 
+| County | The county where the power utility/plant/generator is located. | String | Aleutians East| 
+| State | The state where the power plant/generator is located. | String | AK | 
+| Technology | The type of technology a given generator uses to generate energy. | String | Petroleum Liquids | 
+| Plant Name | The name of a given power plant. | String | Mitchell Dam | 
+|  Elec_MMBtu {Month} | The energy (in British thermal units) consumed for generating electricity in a given month for a given plant. | float64| 31,943.0| 
+| Year | The year that energy data was collected. | float64 | 2024|
+
+
 
 ### Quantification of uncertainty
 ## Link to press release 
