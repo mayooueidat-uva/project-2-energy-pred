@@ -16,6 +16,9 @@ License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/
 | Villarosa Pollution is Killing Black Americans. This community fought back. | [placeholder] | [link](https://myuva-my.sharepoint.com/:b:/g/personal/zvd6vz_virginia_edu/IQAfai7jSp6YTo3OXZHPgXsxAYzlM6tSfUUFkkNB6sdDkWk?e=iuC9FC) | 
 ## Data creation
 ### Provenance
+Data was collected from the Center for Medicare and Medicaid Services (CMS) and U.S. Energy Information Administration (EIA). For energy demand and hospital readmissions, data from 2021 to 2026 was procured; however, power plant data was unavailable for 2025-2026, so I only gathered data for 2021-2024. No API was available for CMS’s archived data, so the files were manually downloaded and unzipped from the website. When perusing the EIA’s website, I wanted to see available data on energy demand and zip codes, as I intended to refine my problem statement based on available data. Therefore, I also downloaded EIA data manually; the website’s downloads pages were easier to navigate than their API, as their API tool requires one to choose between thousands of parameters. 
+	After ensuring all data was in UTF-8 format, a table or two from each dataset—hospital readmissions, energy demand, and power plants—was put into MongoDB Compass, which allowed me to view the proportion of numeric data read as strings, columns with significant NaNs, summary statistics, et cetera. All data was loaded separately and cleaned accordingly in JupyterLab, using Python. Cleaned spreadsheets were loaded into the Mongo database to be extracted in other notebooks for further processing and for analysis. 
+
 ### Code files
 ### Rationale
 ### Bias identification 
