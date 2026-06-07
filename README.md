@@ -26,6 +26,13 @@ After ensuring all data was in UTF-8 format, a table or two from each dataset—
 ## Metadata
 ### Implicit Schema
 ### Database contents 
+| Name | brief description | 
+| ----- | ---------------- | 
+| unplanned_data | 
+| readm_data | 
+| plants_data | Original files acquired from the EIA for each year. A cleaned set of JSON documents consisting of plant identificatory and location information, including ZIP code, for years 2021-2024. | 
+| generators_data | Original files acquired from the EIA for each year. A cleaned set of JSON documents consisted of utility/plant identificatory and location information for years 2021-2024. Additionally, they included the type of technology used for each generator (hydroelectric, steam coal, etc). | 
+| demand_data | Original files acquired from the EIA for each year. A cleaned JSON file comprised of the demand data from years 2021-2026 and includes plant identificatory information and the quantity of energy in MMBtu (million British thermal units) used for electricity generation each month, which is used as a proxy for energy demand. |
 ### Data dictionary 
 | Name | Brief description | Data Type | Example |
 | ------| -----------------| -------| -------|
