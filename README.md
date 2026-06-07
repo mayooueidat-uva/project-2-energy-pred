@@ -26,6 +26,13 @@ ZIP codes for hospitals will not always be the same as ZIP codes for affected pa
 ### Bias mitigation 
 ## Metadata
 ### Implicit Schema
+```
+unplanned_data
+readm_data
+plants_data
+generators_data
+demand_data
+```
 ### Database contents 
 | Name | brief description | 
 | ----- | ---------------- | 
