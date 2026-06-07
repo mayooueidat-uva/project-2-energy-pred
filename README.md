@@ -28,8 +28,8 @@ After ensuring all data was in UTF-8 format, a table or two from each dataset—
 ### Database contents 
 | Name | brief description | 
 | ----- | ---------------- | 
-| unplanned_data | 
-| readm_data | 
+| unplanned_data | Original files acquired from CMS for each year for years 2024-2026 (data collection start dates for the files are from 2019-2021, and end dates are from 2022-2024). A cleaned set of JSON documents consisted of hospital identificatory information, start and end date of unplanned hospital visits, hospital ZIP code, and causes of readmission. |
+| readm_data | Original files acquired from CMS for each year for years 2024-2026. A cleaned set of JSON documents consisted of hospital identificatory information, start and end date of patient readmissions, readmission type, as well as excess readmission rate. | 
 | plants_data | Original files acquired from the EIA for each year. A cleaned set of JSON documents consisting of plant identificatory and location information, including ZIP code, for years 2021-2024. | 
 | generators_data | Original files acquired from the EIA for each year. A cleaned set of JSON documents consisted of utility/plant identificatory and location information for years 2021-2024. Additionally, they included the type of technology used for each generator (hydroelectric, steam coal, etc). | 
 | demand_data | Original files acquired from the EIA for each year. A cleaned JSON file comprised of the demand data from years 2021-2026 and includes plant identificatory information and the quantity of energy in MMBtu (million British thermal units) used for electricity generation each month, which is used as a proxy for energy demand. |
