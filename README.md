@@ -22,6 +22,7 @@ After ensuring all data was in UTF-8 format, a table or two from each dataset—
 ### Code files
 ### Rationale
 ### Bias identification 
+ZIP codes for hospitals will not always be the same as ZIP codes for affected patients. Having worked in a hospital before, I know that people will often travel to hospitals; for example, I was at a clinic in Little Rock (central Arkansas) and we had patients coming from Bella Vista (on the border of Missouri and Arkansas). Additionally, the demand data was replete with NaN values; and while pd.DataFrame.interpolate was used to accommodate for them, I lacked the time to deliberate how to impute values. 
 ### Bias mitigation 
 ## Metadata
 ### Implicit Schema
