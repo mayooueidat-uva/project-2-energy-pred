@@ -34,9 +34,9 @@ After ensuring all data was in UTF-8 format, a table or two from each dataset—
 ### Code files
 | Title | Description | link | 
 | ----- | ------------| ----- | 
-| clean.py | part of pipeline that cleans raw data after it has been appropriately put into csv format. | placeholder | 
-| pre_analysis.py | the part of the pipeline that creates a new data table (from cleaned data) that can be used in our model. | placeholder | 
-| the_ml_part.py | part of the pipeline where model selection is done for HistGradientBoostingRegressor, and then the model is used to assess what features are most important for predicting excess readmission rate. | placeholder | 
+| clean.py | part of pipeline that cleans raw data after it has been appropriately put into csv format. | [file](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/code_files/clean.py) | 
+| pre_analysis.py | the part of the pipeline that creates a new data table (from cleaned data) that can be used in our model. | [file](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/code_files/pre_analysis.py) | 
+| the_ml_part.py | part of the pipeline where model selection is done for HistGradientBoostingRegressor, and then the model is used to assess what features are most important for predicting excess readmission rate. | [file](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/code_files/the_ml_part.py) | 
 ### Rationale
 ### Bias identification 
 ZIP codes for hospitals will not always be the same as ZIP codes for affected patients. Having worked in a hospital before, I know that people will often travel to hospitals; for example, I was at a clinic in Little Rock (central Arkansas) and we had patients coming from Bella Vista (on the border of Missouri and Arkansas). Additionally, the demand data was replete with NaN values; and while pd.DataFrame.interpolate was used to accommodate for them, I lacked the time to deliberate how to impute values. 
