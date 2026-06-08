@@ -32,6 +32,11 @@ Data was collected from the Center for Medicare and Medicaid Services (CMS) and 
 After ensuring all data was in UTF-8 format, a table or two from each dataset—hospital readmissions, energy demand, and power plants—was put into MongoDB Compass, which allowed me to view the proportion of numeric data read as strings, columns with significant NaNs, summary statistics, et cetera. All data was loaded separately and cleaned accordingly in JupyterLab, using Python. Cleaned spreadsheets were loaded into the Mongo database to be extracted in other notebooks for further processing and for analysis. 
 
 ### Code files
+| Title | Description | link | 
+| ----- | ------------| ----- | 
+| clean.py | part of pipeline that cleans raw data after it has been appropriately put into csv format. | placeholder | 
+| pre_analysis.py | the part of the pipeline that creates a new data table (from cleaned data) that can be used in our model. | placeholder | 
+| the_ml_part.py | part of the pipeline where model selection is done for HistGradientBoostingRegressor, and then the model is used to assess what features are most important for predicting excess readmission rate. | placeholder | 
 ### Rationale
 ### Bias identification 
 ZIP codes for hospitals will not always be the same as ZIP codes for affected patients. Having worked in a hospital before, I know that people will often travel to hospitals; for example, I was at a clinic in Little Rock (central Arkansas) and we had patients coming from Bella Vista (on the border of Missouri and Arkansas). Additionally, the demand data was replete with NaN values; and while pd.DataFrame.interpolate was used to accommodate for them, I lacked the time to deliberate how to impute values. 
