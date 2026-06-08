@@ -7,8 +7,16 @@ Press Release: [placeholder]<br>
 Pipeline: [placeholder]<br>
 License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/LICENSE.md)
 ## Problem definition 
+### Problem statement
+**Initial general problem:** The generation of energy leads to waste that is unhealthy to be around, so we must find out how energy demand and hospital readmissions are linked. 
+**Refined problem statement:** ______ Therefore, it is crucial to determine what ____ contribute to _____, and use a feature-selecting model that 
+### Motivation 
+### Rationale 
+The project was refined over the course of research and data cleaning and was largely shaped by the available data. At first, I started asking myself questions about hospital readmissions; then, I recalled some coursework about power plants placed in disadvantaged areas negatively contributing to residents' health. I wanted to investigate the degree to which a *number* of features might have contributed to hospital readmissions, and I chose both the means of generating electricity and energy demand based on my background reading and the data on the Energy Information Administration (EIA) website. I also wanted to look at how readmissions may be affected compared to the "normal" level, which is why I went with the excess readmission ratio. 
 ## Domain exposition 
 ### Terminology 
+| ---- | 
+| ----- | 
 ### Domain
 ### Further Reading
 | Title | Brief description | link | 
