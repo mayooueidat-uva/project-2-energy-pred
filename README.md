@@ -1,10 +1,10 @@
-# DS 4320 Project 2: [PLACEHOLDER]<br>
+# DS 4320 Project 2: Your Quality of Health is Electrifying<br>
 Executive Summary: [placeholder until finished]<br>
 Name: Maya Uwaydat<br>
 NetID: zvd6vz<br>
 DOI: [placeholder until finished]<br>
-Press Release: [placeholder]<br>
-Pipeline: [placeholder]<br>
+Press Release: [link](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/untitled.md) 
+Pipeline: [link](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/master_pipeline.ipynb) 
 License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/LICENSE.md)
 ## Problem definition 
 ### Problem statement
@@ -132,8 +132,6 @@ Collection: demand_data
 |  Elec_MMBtu {Month} | The energy (in British thermal units) consumed for generating electricity in a given month for a given plant. | float64| 31,943.0| 
 | Year | The year that energy data was collected. | float64 | 2024|
 
-
-
 ### Quantification of uncertainty
-## Link to press release 
+## [Link to press release](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/untitled.md) 
 ## Link to data 
