@@ -8,7 +8,7 @@ Pipeline: [placeholder]<br>
 License: [MIT License](https://github.com/mayooueidat-uva/project-2-energy-pred/blob/main/LICENSE.md)
 ## Problem definition 
 ### Problem statement
-**Initial general problem:** The generation of energy leads to waste that is unhealthy to be around, so we must find out how energy demand and hospital readmissions are linked. 
+**Initial general problem:** The generation of energy leads to waste that is unhealthy to be around, so we must find out how energy demand and hospital readmissions are linked.<br>
 **Refined problem statement:** Energy generation, especially by fossil-fuel sources, can have negative health implications for communities surrounding the plants. It is crucial to determine what features of power plants contribute to negative health outcomes, so we must see whether energy demand in certain months, or types of generator, contribute to excess readmissions. 
 ### Motivation 
 ### Rationale 
